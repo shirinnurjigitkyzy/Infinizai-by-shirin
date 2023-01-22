@@ -1,0 +1,336 @@
+@import "common.css";
+@import "footer.css";
+@import "header.css";
+@import "normalize.css";
+@import "prefix.css";
+@import "responsive.css";
+
+.sponsors-section{
+    background-color: #FDD04A;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+.sponsors-section h2{
+    font-size: 48px;
+    padding-bottom: 30px;
+    color: #222730;
+}
+.sponsors-section p{
+    color: #555555;
+    padding-bottom: 40px;
+}
+.icons img{
+    margin-right: 25px;
+}
+.gaming-shop{
+    text-align: center;
+    background-image: url(../images/shop.svg);
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.texts-shop{
+    display: flex;
+    margin-left: 630px;
+}
+.texts-shop h5{
+    padding-top: 20px;
+    color: #57B8FF;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-left: 10px;
+}
+.gaming-shop h2{
+    font-size: 68px;
+    padding-bottom: 40px;
+}
+.gaming-shop p{
+    color: #DFDFDFCC;
+    padding-bottom: 80px;
+}
+.cards-shop1{
+    display: flex;
+    margin-left: 100px;
+}
+.cards-shop2{
+    display: flex;
+    margin-left: 100px;
+}
+.card-1{
+    text-align: start;
+    display: flex;
+    margin-right: 50px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    padding: 40px;
+    height: 200px;
+}
+.card-1 h3{
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+.card-img{
+    margin-top: 10px;
+}
+.card-text{
+    margin-left: 20px;
+}
+
+.card-2{
+    text-align: start;
+    display: flex;
+    margin-right: 50px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    padding: 40px;
+    height: 200px;
+}
+.card-2 h3{
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+
+.card-3{
+    text-align: start;
+    display: flex;
+    margin-right: 50px;
+    background: rgba(255, 255, 255, 0.15);
+    margin-top: 40px;
+    border-radius: 20px;
+    padding: 40px;
+    height: 200px;
+}
+.card-3 h3{
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+
+.card-4{
+    text-align: start;
+    display: flex;
+    margin-right: 50px;
+    background: rgba(255, 255, 255, 0.15);
+    margin-top: 40px;
+    border-radius: 20px;
+    padding: 40px;
+    height: 200px;
+}
+.card-4 h3{
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+.video-section{
+    background-color: #000000E0;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+.video-container{
+    display: flex;
+}
+.video-img{
+    margin-left: 300px;
+}
+.texts-shops{
+    display: flex;
+}
+.texts-shops h5{
+    padding-top: 20px;
+    color: #57B8FF;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-left: 10px;
+}
+.text-video h2{
+    margin-top: 20px;
+    font-size: 54px;
+    padding-bottom:30px;
+}
+.text-video p{
+    color: #DFDFDFCC;
+    padding-bottom: 30px;
+}
+.text-video button{
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    padding: 21px 34px;
+}
+.text-video button:hover{
+    background-color: #57B8FF;
+}
+.images-card{
+    display: flex;
+    color: white;
+    margin: 0 auto;
+    font-family: 'Orbitron', sans-serif ;
+}
+.img-card1{
+    background-image: url(../images/image-1.png);
+    width: 33%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 300px;
+}
+
+.img-card2{
+    background-image: url(../images/image-2.png);
+    width: 33%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 300px
+}
+
+.img-card3{
+    background-image: url(../images/image-3.png);
+    width: 34%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 300px
+}
+.magazine-container{
+    background-color: #000000;
+    padding-top: 100px;
+}
+.magazine-section{
+    display: flex;
+    color: white;
+    font-family: 'Orbitron', sans-serif ;
+}
+.magazine-left{
+    width: 48%;
+}
+.magazine-left h2{
+    font-size: 62px;
+    padding-bottom: 40px;
+}
+.img{
+    padding-bottom: 50px;
+}
+.m-p{
+    color: #57B8FF;
+    padding-bottom: 30px;
+}
+.m-h3{
+    font-size: 36px;
+    padding-bottom: 50px;
+}
+.magazine-right{
+    display: flex;
+    width: 48%;
+    padding-top: 130px;
+}
+.right-btn button{
+    border: none;
+    background-color: transparent;
+    font-family:'Orbitron', sans-serif ;
+    color: white;
+    width: 130px;
+    height: 30px;
+    margin-left: 160px;
+}
+.right-btn button:hover{
+   width: 130px;
+   height: 30px;
+    font-family:'Orbitron', sans-serif ;
+    color: white;
+    background-color: #57B8FF;
+   
+}
+.left-1{
+    padding-top: 140px;
+    padding-bottom: 2px;
+    width: 48%;
+    margin-right: 20px;
+}
+.left-1 img{
+    width: 200px;
+}
+.left-2 img{
+    width: 200px;
+}
+.left-1 h5{
+    color: #57B8FF;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.left-1 h3{
+    width: 350px;
+    height: 0;
+}
+.left-2{
+    padding-top: 120px;
+    padding-bottom: 2px;
+    width: 48%;
+    margin-right: 20px;
+}
+.left-2 h5{
+    color: #57B8FF;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.left-2 h3{
+    width: 350px;
+    height: 0;
+}
+.contact-section{
+    background-image: url(../images/contact.png);
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 100px;
+}
+.contact-section h2{
+    font-size: 62px;
+    padding-bottom: 40px;
+}
+.contact-section p{
+    color: #555555;
+    padding-bottom: 40px;
+}
+.subscribe{
+    display: flex;
+}
+.subscribe input{
+    width: 330px;
+    padding: 15px 20px;
+    border: none;
+    border-left: 1px solid #e6e6e6;
+    margin-left:460px;
+}
+.input::placeholder{
+    font-family: 'Orbitron', sans-serif;
+}
+.subscribe a{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+   color: #555555;
+    text-align: center;
+    padding: 15px 22px;
+    background-color: #57B8FF;
+    border: 1px solid #e6e6e6;
+    border: none;
+}

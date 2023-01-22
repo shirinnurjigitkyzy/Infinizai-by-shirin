@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lora:wght@500&family=Montserrat:wght@500&family=Orbitron:wght@400;500&family=PT+Sans&family=Playfair+Display:wght@700&family=Poppins&family=Rajdhani&family=Roboto&family=Schoolbell&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --blue: #57b8ff;
+    --yellow: #fdd04a;
+    --grey: #dfdfdfcc;
+    --regular: "Orbitron-Regular", sans-serif;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: 'Orbitron', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+#backtop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 99;
+    border: 3px solid var(--orange);
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50px;
+    transition: 1s;
+    background-color: #fdd04a;
+}
+
+  #backtop a{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color:#57b8ff;
+}
+.dark  {
+    background-color: white;
+   }
+   
+   .dark  * {
+     background-image: linear-gradient(
+        to right,
+        var(--black) 50%,
+      );
+   }
+   .navbar{
+	position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    transition: 0.3s;
+}

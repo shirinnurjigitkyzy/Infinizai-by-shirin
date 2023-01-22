@@ -1,0 +1,85 @@
+header {
+    background-image: linear-gradient(
+      to right,
+      var(--black) 50%,
+      var(--blue) 50%
+    );
+  }
+header{
+    background-color: #000000E0;
+}
+
+.hamburger{
+	display: none;
+}
+#navbar-responsive{
+    display: none;
+}
+.navbar-shrink {
+}
+header nav, ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.ul-left{
+    margin-right: -20px;
+}
+.ul-left a{
+  margin-right: 70px;
+  color: #FFFFFF;
+}
+.ul-left a:hover{
+    color: #FAC422;
+}
+#dark-light {
+   margin-right: 20px;
+   border: none;
+}
+#contact-btn{
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    padding: 16px 31px 16px 31px;
+}
+#contact-btn{
+    color: #FFFFFF;
+    font-family: 'Orbitron', sans-serif;
+}
+.intro-section{
+    display: flex;
+    color: #FFFFFF;
+    margin-top: 80px;
+    padding-bottom: 200px;
+}
+.text-intro{
+    margin-top: 100px;
+}
+.texts-container{
+    display: flex;
+}
+.texts-container h5{
+    padding-top: 20px;
+    color: #57B8FF;
+    padding-bottom: 20px;
+}
+.text-intro h2{
+    font-size: 70px;
+    padding-bottom: 30px;
+}
+.text-intro p{
+    color: #999999;
+    padding-bottom: 30px;
+}
+.text-intro a{
+    font-family: 'Orbitron', sans-serif;
+    color: #FFFFFF;
+}
+.text-intro button{
+    border: none;
+    padding: 21px 34px 21px 34px;
+    background-color: #000000E0;
+}
+.text-intro button:hover{
+    background-color: #57B8FF;
+}
